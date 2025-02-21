@@ -1685,8 +1685,12 @@ export default {
           this.getNode(id).childrenStates.isLoading = true
           this.getNode(id).childrenStates.loadingError = ''
         },
-        succeed: () => {
-          this.getNode(id).childrenStates.isLoaded = true
+        succeed: (options) => {
+          const node = this.getNode(id)
+          if(options){
+            this.$set(node,'children',this.normalize( node,options,this.forest.nodeMap))
+          }
+          node.childrenStates.isLoaded = true
         },
         fail: err => {
           this.getNode(id).childrenStates.loadingError = getErrorMessage(err)
