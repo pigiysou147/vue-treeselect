@@ -358,7 +358,8 @@ export default {
      */
     loadingText: {
       type: String,
-      default: 'Loading...',
+      // default: 'Loading...',
+      default: '加载中...',
     },
 
     /**
@@ -405,7 +406,8 @@ export default {
      */
     noChildrenText: {
       type: String,
-      default: 'No sub-options.',
+      // default: 'No sub-options.',
+      default: '暂无数据',
     },
 
     /**
@@ -413,7 +415,8 @@ export default {
      */
     noOptionsText: {
       type: String,
-      default: 'No options available.',
+      // default: 'No options available.',
+      default: '暂无数据',
     },
 
     /**
@@ -421,7 +424,8 @@ export default {
      */
     noResultsText: {
       type: String,
-      default: 'No results found...',
+      // default: 'No results found...',
+      default: '暂无数据',
     },
 
     /**
@@ -483,7 +487,8 @@ export default {
      */
     placeholder: {
       type: String,
-      default: 'Select...',
+      // default: 'Select...',
+      default: '请选择...',
     },
 
     /**
@@ -499,7 +504,8 @@ export default {
      */
     retryText: {
       type: String,
-      default: 'Retry?',
+      // default: 'Retry?',
+      default: '重试?',
     },
 
     /**
@@ -507,7 +513,8 @@ export default {
      */
     retryTitle: {
       type: String,
-      default: 'Click to retry',
+      // default: 'Click to retry',
+      default: '点击重试',
     },
 
     /**
@@ -531,7 +538,8 @@ export default {
      */
     searchPromptText: {
       type: String,
-      default: 'Type to search...',
+      // default: 'Type to search...',
+      default: '搜索...',
     },
 
     /**
